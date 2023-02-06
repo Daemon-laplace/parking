@@ -4,3 +4,5 @@ service gérer par laravel
 
 
 MCD: durée par defaut des resarvations dans le fichier .env (permet de calculer date_fin_resa)
+
+sujet url: https://enseignement.alexandre-mesle.com/PPE/parking/
