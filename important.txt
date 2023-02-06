@@ -1,6 +1,0 @@
-MCD: durée par defaut des resarbation dans le fichier .env (permet de calculer date_fin_resa)
-
-gestion de connexion, mot passe oublié
-
-
-
