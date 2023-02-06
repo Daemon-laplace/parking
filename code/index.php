@@ -1,4 +1,5 @@
 <?php
-salut
+$test = 'ça fonctionne !';
+echo = $test;
 
 ?>
