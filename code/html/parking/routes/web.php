@@ -17,4 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', 'App\Http\Controllers\AccueilController@index');
+Route::get('/accueil', 'App\Http\Controllers\AccueilController@index');
+Route::get('/sigin', 'App\Http\Controllers\AccueilController@signin');
+Route::get('/login', 'App\Http\Controllers\AccueilController@login');

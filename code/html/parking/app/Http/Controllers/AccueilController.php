@@ -8,5 +8,15 @@ class AccueilController extends Controller
     {
         return view('accueil');
     }
-}
 
+    public function signin()
+    {
+        return view('inscription');
+    }
+
+
+    public function login()
+    {
+        return view('connection');
+    }
+}
