@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/accueil', 'App\Http\Controllers\AccueilController@index');
-Route::get('/sigin', 'App\Http\Controllers\AccueilController@signin');
-Route::get('/login', 'App\Http\Controllers\AccueilController@login');
+Route::get('/signin', 'App\Http\Controllers\AccueilController@signin')->name("signin");
+Route::get('/login', 'App\Http\Controllers\AccueilController@login')->name("login");
